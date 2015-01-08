@@ -45,22 +45,61 @@
 
 /*  GENERAL  */
 
-/*
+
 * {
     font-family: "bebas_neueregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
-*/
+
+
+p { font-size: 1.4em; }
+
+
+@media only screen and (max-width: 40em) {
+    p { font-size: 1.7em; }
+    h2 { font-size: 5.5em !important; }
+    .chapter-description p { padding: 0 1.5em !important; }
+} /* Define mobile styles */
+
+
+
+.wrapper {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "reckonerregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 7.5em;
+    padding: 1em 0;
+}
+
+
+/* LINK STYLING */
+
+nav a, nav a:visited, nav a:hover {
+    color: #fff;
+    font-size: 1.0em;
+}
 
 a, a:visited, a:hover {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+div.chapter a, div.chapter a:visited, div.chapter a:hover {
     color: #fff;
+    font-size: 1.0em;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-.wrapper {
-    width: 100%;
 }
 
 
@@ -74,16 +113,11 @@ a:hover {
     background: #000;
     border: none;
 }
-#teaser p {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.2em;
-}
-
 
 
 
 /* NAVIGATION */
+
 .top-bar-section ul li {
     background: #000;
 }
@@ -96,11 +130,17 @@ a:hover {
     text-decoration: underline;
 }
 
-/*
-.top-bar.expanded .toggle-topbar a {
-    font-size: 1.5em;
+nav.top-bar {
+text-align:center;
 }
-*/
+section.top-bar-section {
+display: inline-block;
+}
+
+.toggle-topbar a {
+    font-family: "reckonerregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.5em !important;
+}
 
 
 
@@ -112,8 +152,8 @@ a:hover {
     border-bottom: 5px solid #fff;
     color: #fff;
     text-align: center;
-    
     font-family: "bebas_neueregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin: 2em 0;
 }
 
 .chapter-first {
@@ -122,14 +162,21 @@ a:hover {
 }
 
 .chapter-description div {
-    margin: 2em 0;
+    margin: 2em 0 1em 0;
 }
 
-.chapter-contact * {
-    font-family: "reckonerregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+.chapter-description p {
     text-align: center;
+    padding: 0 4em;
+}
+
+.chapter-contact {
+     text-align: center;   
+}
+
+.chapter-contact h2 {
+    margin: 0;
+    padding: 0;
 }
 
 .chapter-imprint * {
@@ -137,13 +184,6 @@ a:hover {
     font-size: 1.3em;
     text-align: center;
     margin: 2em 1em 0.5em 1em;
-}
-
-h2 {
-    font-family: "reckonerregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    color: #fff;
-    text-align: center;
-    font-size: 6.5em;
 }
 
 .chapter p {
@@ -155,3 +195,35 @@ h2 {
 .story-artist {
     text-align: center;
 }
+
+.artists img {
+    margin-bottom: 1em;
+}
+
+.artists p {
+    font-size: 1.8em;
+}
+
+
+/* BACKGROUNDS */
+.bg {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* TODO / WIP
+@media only screen and (max-width: 40em) {
+    .bg-synopsis { background-image: url("../img/chapters/lowRes/1-synopsis.jpg"); }
+    .bg-story { background-image: url("../img/chapters/lowRes/2-story.jpg"); }
+    .bg-story { background-image: url("../img/chapters/lowRes/3-musik.jpg"); }
+    .bg-team { background-image: url("../img/chapters/lowRes/4-team.jpg"); }
+}
+*/
+
+.bg-synopsis { background-image: url("../img/chapters/highRes/1-synopsis.jpg"); }
+.bg-story { background-image: url("../img/chapters/highRes/2-story.jpg"); }
+.bg-musik { background-image: url("../img/chapters/highRes/3-musik.jpg"); }
+.bg-team { background-image: url("../img/chapters/highRes/4-team.jpg"); }
