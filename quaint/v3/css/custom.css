@@ -190,6 +190,31 @@ display: inline-block;
     font-size: 1.7em;
 }
 
+.chapter-svg .columns { 
+    padding: 0;
+}
+
+.svg-container {
+    position: relative;
+    width: 100%;
+/*    height: 25em;*/
+}
+
+/*
+.chapter-svg svg { 
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+}
+
+.chapter-svg h2 { 
+    position: absolute;
+    width: 100%;
+    margin: auto 0;
+}
+*/
+
 
 /* Story: Artist */
 .story-artist {
@@ -227,3 +252,12 @@ display: inline-block;
 .bg-story { background-image: url("../img/chapters/highRes/2-story.jpg"); }
 .bg-musik { background-image: url("../img/chapters/highRes/3-musik.jpg"); }
 .bg-team { background-image: url("../img/chapters/highRes/4-team.jpg"); }
+
+
+
+/* SVG IMAGES */
+svg {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
