@@ -197,10 +197,9 @@ display: inline-block;
 .svg-container {
     position: relative;
     width: 100%;
-/*    height: 25em;*/
+    height: 25em;
 }
 
-/*
 .chapter-svg svg { 
     position: absolute;
     width: 100%;
@@ -213,7 +212,6 @@ display: inline-block;
     width: 100%;
     margin: auto 0;
 }
-*/
 
 
 /* Story: Artist */
