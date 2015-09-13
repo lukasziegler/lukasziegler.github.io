@@ -17,15 +17,17 @@
     <div class="welcome">
         <div class="row">
             <div class="large-6 large-centered small-8 small-centered columns" class="content">
-                <img src="img/emblem.png" alt="Logo" class="welcome__logo">
-                <br>
-                <img src="img/schriftzug.png" alt="Reichenauer Inselbier">
-                <!--                <h1>Reichenauer Inselbier</h1>-->
+                <a href="#contact" class="scroll">
+                    <img src="img/emblem.png" alt="Logo" class="welcome__logo">
+                    <br>
+                    <img src="img/schriftzug.png" alt="Reichenauer Inselbier">
+                    <!--                <h1>Reichenauer Inselbier</h1>-->
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="contact">
+    <div id="contact">
         <div class="row">
             <div class="large-6 large-centered small-8 small-centered columns" class="content">
 
@@ -43,9 +45,19 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
     <script>
         $(document).foundation();
     </script>
+    <script src="https://use.typekit.net/cql8cuw.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
 </body>
 
 </html>
