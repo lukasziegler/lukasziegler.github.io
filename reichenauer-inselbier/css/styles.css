@@ -28,6 +28,9 @@ header {
     background-color: #fcfdfd;
     text-align: center;
     padding-top: 5%;
+    background-image: url(../img/reichenau-sw.jpg);
+    background-size: cover;
+    background-repeat: none;
 }
 
 .welcome__logo {
