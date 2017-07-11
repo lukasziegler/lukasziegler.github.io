@@ -1,8 +1,7 @@
 {
-  "name": "lukasziegler.com",
-  "version": "0.0.3",
-  "description": "repo for website lukasziegler.com",
-  "main": "index.js",
+  "name": "experiments.lukasziegler.com",
+  "version": "0.0.1",
+  "description": "place for some experiments of lukasziegler.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/lukasziegler/lukasziegler.github.io.git"
@@ -12,13 +11,5 @@
   "bugs": {
     "url": "https://github.com/lukasziegler/lukasziegler.github.io/issues"
   },
-  "homepage": "https://github.com/lukasziegler/lukasziegler.github.io",
-  "devDependencies": {
-    "browser-sync": "^2.18.5",
-    "gulp": "^3.9.1",
-    "gulp-sourcemaps": "^1.9.1",
-    "gulp-stylus": "^2.6.0",
-    "rupture": "^0.6.2",
-    "stylus": "^0.54.5"
-  }
+  "homepage": "https://github.com/lukasziegler/lukasziegler.github.io"
 }
