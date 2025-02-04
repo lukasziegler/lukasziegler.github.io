@@ -1,0 +1,10 @@
+{
+    "name": "Hugo Codespace",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/devcontainers/features/hugo:1": {
+        "version": "extended"
+      }
+    },
+    "postCreateCommand": "hugo version"
+}
