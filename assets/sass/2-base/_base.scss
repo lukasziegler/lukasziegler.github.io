@@ -9,7 +9,7 @@ body {
   color: $heading-font-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+/*
   &.is-in {
     &::after {
       visibility: hidden;
@@ -29,7 +29,7 @@ body {
     z-index: 15;
     transition: 1s;
   }
-
+*/
   @media only screen and (max-width: $mobile) {
     font-size: 17px;
   }
