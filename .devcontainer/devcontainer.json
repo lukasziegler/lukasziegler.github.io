@@ -21,11 +21,11 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [1313],
+	// "forwardPorts": [1313],
 
 	// You can use go mod instead
 	"postCreateCommand": "git submodule update --init",
 
 	// This will automatically start the Hugo server on Codespaces launch
-	"postStartCommand": "hugo server --bind 0.0.0.0 --baseURL=http://localhost:1313/"
+	"postStartCommand": "hugo server"
 }
